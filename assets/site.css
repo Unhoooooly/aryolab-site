@@ -145,6 +145,9 @@ a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; border-ra
 
 ul, ol { padding-inline-start: 1.3em; margin: 8px 0 12px; }
 
+/* Arabic text uses Eastern-Arabic numerals, list markers included. */
+ol:lang(ar) { list-style-type: arabic-indic; }
+
 li { margin: 6px 0; }
 
 .updated { color: var(--muted); font-size: 15px; margin: 0 0 8px; }
